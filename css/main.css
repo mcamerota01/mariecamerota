@@ -1,0 +1,173 @@
+body {
+  padding-top:90px
+}
+@media (min-width:768px) {
+  body { 
+    padding-top:0
+  }
+}
+@media (min-width:768px) {
+  body {
+    margin-left:232px
+  }
+}
+.navbar.fixed-left {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:1030;
+}
+@media (min-width:768px) {
+  .navbar.fixed-left {
+    bottom:0;width:232px;
+    flex-flow:column nowrap;
+    align-items:flex-start
+  }
+
+  .navbar.fixed-left .navbar-collapse {
+  flex-grow:0;
+  flex-direction:column;
+  width:100%
+  }
+
+  .navbar.fixed-left .navbar-collapse .navbar-nav {
+    flex-direction:column;
+    width:100%
+  }
+
+  .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item {
+    width:100%
+  }
+
+  .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item {
+    top:0
+  }
+}
+@media (min-width:768px) {
+  .navbar.fixed-left {
+    right:auto;
+  }
+  .navbar.fixed-left .navbar-nav .nav-item { 
+    left:100%
+  }
+}
+
+/* **************************
+side nav
+************************** */
+.bg-primary {
+  background-color: #fff !important;
+}
+
+a.nav-link {
+  color: black !important;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+a.nav-link:hover {
+  color: #778899 !important;
+}
+#sideNav {
+  padding-top: 30px;
+}
+
+#collapse-menu-lines {
+  color: black;
+  padding-top: 7px;
+}
+
+.social-links-wrapper {
+  text-align: center;
+  padding-top: 20px;
+}
+
+a.social-media-link {
+  color: #686868;
+  padding-right: 5px;
+}
+/* **************************
+header
+************************** */
+
+#nav-header { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+}
+
+#nav-title { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+div.jumbotron.jumbotron-fluid {
+  border-bottom: thin solid #D3D3D3;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+/* **************************
+body
+************************** */
+
+.container {
+  padding-bottom: 35px;
+}
+
+.section-heading {
+  padding-bottom: 16px;
+}
+
+li {
+  list-style-type: none
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#D3D3D3;
+  height: 1px;
+}
+/* **************************
+contact
+************************** */
+
+.contact-font-text-wrapper {
+  display: inline-block;
+  padding: 4px;
+}
+
+.contact-text #ico {
+    line-height: 50px;
+}
+
+#ico {
+    vertical-align: middle;
+}
+
+/* **************************
+images
+************************** */
+.project-logo {
+  padding-bottom: 10px;
+}
+.img-fluid {
+  max-width: 100%; 
+  height: auto;
+} 
+
+@media (max-width:768px) {
+  #side-nav-menu-img {
+  display:none;
+  }
+}
+
+#nav-img {
+   border-radius: 50%;
+}
+
+.logo {
+    padding-bottom: 100px;
+}
