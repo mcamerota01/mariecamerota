@@ -1,16 +1,23 @@
 body {
   padding-top:90px
 }
+
 @media (min-width:768px) {
   body { 
     padding-top:0
   }
 }
+
 @media (min-width:768px) {
   body {
     margin-left:232px
   }
 }
+
+a {
+  color: #4169E1;
+}
+
 .navbar.fixed-left {
   position:fixed;
   top:0;
@@ -18,6 +25,7 @@ body {
   right:0;
   z-index:1030;
 }
+
 @media (min-width:768px) {
   .navbar.fixed-left {
     bottom:0;width:232px;
@@ -48,6 +56,7 @@ body {
   .navbar.fixed-left {
     right:auto;
   }
+
   .navbar.fixed-left .navbar-nav .nav-item { 
     left:100%
   }
@@ -87,6 +96,7 @@ a.social-media-link {
   color: #686868;
   padding-right: 5px;
 }
+
 /* **************************
 header
 ************************** */
@@ -106,6 +116,7 @@ div.jumbotron.jumbotron-fluid {
   padding-bottom: 40px;
   padding-top: 40px;
 }
+
 /* **************************
 body
 ************************** */
@@ -130,6 +141,7 @@ hr {
   background-color:#D3D3D3;
   height: 1px;
 }
+
 /* **************************
 contact
 ************************** */
@@ -150,6 +162,7 @@ contact
 /* **************************
 images
 ************************** */
+
 .project-logo {
   padding-bottom: 10px;
 }
