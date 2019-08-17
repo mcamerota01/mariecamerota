@@ -1,6 +1,7 @@
 body {
   padding-top:90px;
-  line-height: 1.7
+  line-height: 1.7;
+  font: 'Open Sans', sans-serif;
 }
 
 @media (min-width:768px) {
@@ -111,6 +112,12 @@ a.social-media-link {
 /* **************************
 header
 ************************** */
+.top-name-header{
+  background-color: #e9ecef;
+  border-bottom: thin solid #D3D3D3;
+  padding: 20px 0 20px 40px;
+  margin-bottom: 40px;
+}
 
 #nav-header { 
   font-family: 'Open Sans', sans-serif;
@@ -136,6 +143,15 @@ body
   /* padding-bottom: 35px; */
   padding-top: 10px;
   padding-bottom: 5px;
+}
+
+.top-name-header, 
+.about,
+.projects,
+.publications,
+.education,
+.contact {
+  padding-left: 40px;
 }
 
 .section-heading {
