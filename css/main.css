@@ -109,6 +109,9 @@ a.social-media-link {
   padding-right: 5px;
 }
 
+a.social-media-link:hover {
+  color: #778899;
+}
 /* **************************
 header
 ************************** */
@@ -116,7 +119,6 @@ header
   background-color: #e9ecef;
   border-bottom: thin solid #D3D3D3;
   padding: 20px 0 20px 40px;
-  margin-bottom: 40px;
 }
 
 #nav-header { 
@@ -153,6 +155,28 @@ body
 .contact {
   padding-left: 40px;
 }
+
+.about,
+.projects,
+.publications,
+.education,
+.contact { 
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+
+.about,
+.publications,
+.contact {
+  background: #f8f9fa;
+}
+
+.projects,
+.education {
+  background: #edeff2;
+}
+
 
 .section-heading {
   padding-bottom: 16px;
@@ -225,3 +249,10 @@ images
 .logo {
     padding-bottom: 100px;
 }
+
+
+/* @media (min-width: 576px) { 
+  #nav-header {
+    font-size: 28px;
+  }
+  } */
