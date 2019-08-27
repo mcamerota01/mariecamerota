@@ -54,6 +54,7 @@ a {
     top:0
   }
 }
+
 @media (min-width:768px) {
   .navbar.fixed-left {
     right:auto;
@@ -90,6 +91,7 @@ a.nav-link {
 a.nav-link:hover {
   color: #778899 !important;
 }
+
 #sideNav {
   padding-top: 30px;
 }
@@ -112,9 +114,11 @@ a.social-media-link {
 a.social-media-link:hover {
   color: #778899;
 }
+
 /* **************************
 header
 ************************** */
+
 .top-name-header{
   background-color: #e9ecef;
   border-bottom: thin solid #D3D3D3;
@@ -123,12 +127,12 @@ header
 
 #nav-header { 
   font-family: 'Open Sans', sans-serif;
-  font-size: 48px;
+  font-size: 28px;
 }
 
 #nav-title { 
   font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 div.jumbotron.jumbotron-fluid {
@@ -203,7 +207,7 @@ hr {
 /* **************************
 contact
 ************************** */
-.contact{
+.contact {
   padding-bottom: 50px;
 }
 
@@ -234,6 +238,7 @@ images
   height: auto;
   width: 200px;
 }
+
 .img-fluid {
   max-width: 100%; 
   height: auto;
@@ -253,9 +258,50 @@ images
     padding-bottom: 100px;
 }
 
-
-/* @media (min-width: 576px) { 
+/* **************************
+responsive nav/header
+************************** */
+ 
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
   #nav-header {
-    font-size: 28px;
+    font-size: 34px;
   }
-  } */
+
+  #nav-title {
+    font-size: 22px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  #nav-header {
+    font-size: 36px;
+  }
+
+  #nav-title { 
+    font-size: 24px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  #nav-header {
+    font-size: 42px;
+  }
+
+  #nav-title { 
+    font-size: 26px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  #nav-header {
+    font-size: 48px;
+  }
+
+  #nav-title { 
+    font-size: 30px;
+  }
+}
